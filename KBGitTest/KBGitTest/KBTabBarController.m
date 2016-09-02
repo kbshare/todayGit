@@ -7,7 +7,7 @@
 //
 
 #import "KBTabBarController.h"
-
+#import "KBNavViewController.h"
 @interface KBTabBarController ()
 
 @end
@@ -17,7 +17,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    
+    KBNavViewController *nav1 = [[KBNavViewController alloc]init];
+    nav1.view.backgroundColor = [UIColor lightGrayColor];
+    [self addChildViewController:nav1];
+    [nav1 setTitle:@"灰色的"];
+    
+    
+    KBNavViewController *nav2 = [[KBNavViewController alloc]init];
+    nav2.view.backgroundColor = [UIColor redColor];
+    [self addChildViewController:nav2];
+    [nav2 setTitle:@"红色的"];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
