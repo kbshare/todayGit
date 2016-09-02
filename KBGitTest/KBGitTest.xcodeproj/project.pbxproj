@@ -32,6 +32,7 @@
 		7785F19E1D794E66002FFF69 /* KBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTabBarController.m; sourceTree = "<group>"; };
 		7785F1A01D794E90002FFF69 /* KBNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBNavViewController.h; sourceTree = "<group>"; };
 		7785F1A11D794E90002FFF69 /* KBNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBNavViewController.m; sourceTree = "<group>"; };
+		7785F1A31D79537E002FFF69 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +71,7 @@
 				7785F18D1D794D1A002FFF69 /* ViewController.m */,
 				7785F19D1D794E66002FFF69 /* KBTabBarController.h */,
 				7785F19E1D794E66002FFF69 /* KBTabBarController.m */,
+				7785F1A31D79537E002FFF69 /* PrefixHeader.pch */,
 				7785F1A01D794E90002FFF69 /* KBNavViewController.h */,
 				7785F1A11D794E90002FFF69 /* KBNavViewController.m */,
 				7785F18F1D794D1A002FFF69 /* Main.storyboard */,
