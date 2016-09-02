@@ -13,6 +13,8 @@
 		7785F1911D794D1A002FFF69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7785F18F1D794D1A002FFF69 /* Main.storyboard */; };
 		7785F1931D794D1A002FFF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7785F1921D794D1A002FFF69 /* Assets.xcassets */; };
 		7785F1961D794D1A002FFF69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7785F1941D794D1A002FFF69 /* LaunchScreen.storyboard */; };
+		7785F19F1D794E66002FFF69 /* KBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7785F19E1D794E66002FFF69 /* KBTabBarController.m */; };
+		7785F1A21D794E90002FFF69 /* KBNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7785F1A11D794E90002FFF69 /* KBNavViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		7785F1921D794D1A002FFF69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7785F1951D794D1A002FFF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7785F1971D794D1A002FFF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7785F19D1D794E66002FFF69 /* KBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTabBarController.h; sourceTree = "<group>"; };
+		7785F19E1D794E66002FFF69 /* KBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTabBarController.m; sourceTree = "<group>"; };
+		7785F1A01D794E90002FFF69 /* KBNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBNavViewController.h; sourceTree = "<group>"; };
+		7785F1A11D794E90002FFF69 /* KBNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBNavViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				7785F18A1D794D1A002FFF69 /* AppDelegate.m */,
 				7785F18C1D794D1A002FFF69 /* ViewController.h */,
 				7785F18D1D794D1A002FFF69 /* ViewController.m */,
+				7785F19D1D794E66002FFF69 /* KBTabBarController.h */,
+				7785F19E1D794E66002FFF69 /* KBTabBarController.m */,
+				7785F1A01D794E90002FFF69 /* KBNavViewController.h */,
+				7785F1A11D794E90002FFF69 /* KBNavViewController.m */,
 				7785F18F1D794D1A002FFF69 /* Main.storyboard */,
 				7785F1921D794D1A002FFF69 /* Assets.xcassets */,
 				7785F1941D794D1A002FFF69 /* LaunchScreen.storyboard */,
@@ -150,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7785F19F1D794E66002FFF69 /* KBTabBarController.m in Sources */,
 				7785F18E1D794D1A002FFF69 /* ViewController.m in Sources */,
 				7785F18B1D794D1A002FFF69 /* AppDelegate.m in Sources */,
+				7785F1A21D794E90002FFF69 /* KBNavViewController.m in Sources */,
 				7785F1881D794D1A002FFF69 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
